@@ -15,7 +15,7 @@
 		9D9D04C51E719C525D0FE5FBA3EF7F7A /* Pods-SpinnerBotRS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF0A1B73F732359C684D566B769CCE /* Pods-SpinnerBotRS_Example-dummy.m */; };
 		A65A82780BD8124553A3891C50F69186 /* Pods-SpinnerBotRS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BFEF7513647EC3950971AABF2C4F68 /* Pods-SpinnerBotRS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD2782F6DC29E7F820A3B5A455217B33 /* Pods-SpinnerBotRS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B49AAAC4DC348B9EEA48E9389B307818 /* Pods-SpinnerBotRS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E83B74C2B322DDBD870BA417FF831FB0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886C8CFA70256962A995E9314C0A6B2 /* ReplaceMe.swift */; };
+		E86647F42154BD0000BD103F /* UIVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86647F32154BD0000BD103F /* UIVCExtension.swift */; };
 		F489FC0D9C2BD7BFA5118058F28258ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,12 +63,12 @@
 		B6973BDBE853A45F4CD2ED8C4AEC3448 /* SpinnerBotRS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpinnerBotRS.modulemap; sourceTree = "<group>"; };
 		B7AAE792396A9923DB734F0AFB9847F1 /* SpinnerBotRS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SpinnerBotRS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B8B5598233085F9E5AC8B54290BF261B /* Pods-SpinnerBotRS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpinnerBotRS_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C886C8CFA70256962A995E9314C0A6B2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SpinnerBotRS/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		CB1E405924DC897825C76D00150CF42E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E5AD48380709A2B9577F6D25C85778 /* SpinnerBotRS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinnerBotRS-prefix.pch"; sourceTree = "<group>"; };
 		D532EB2477DFAC7E45AC411956009294 /* Pods-SpinnerBotRS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpinnerBotRS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DAD89A8D90CE6D93A54E0B6BAA6C0892 /* Pods-SpinnerBotRS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpinnerBotRS_Tests-dummy.m"; sourceTree = "<group>"; };
 		DE8DC88EF88BE1D75B0B29E4564BA823 /* Pods_SpinnerBotRS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpinnerBotRS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86647F32154BD0000BD103F /* UIVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVCExtension.swift; sourceTree = "<group>"; };
 		EF31054F69B7B5174DC0AC5B6BB5FC32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FA4706D994A2A6D36AB976D517EA57DD /* Pods-SpinnerBotRS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpinnerBotRS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FAF80240C5FAB5EDF686B420FD378361 /* Pods_SpinnerBotRS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpinnerBotRS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,9 +219,9 @@
 		D7F74D3B7C76120E7E46ABE81AA3F8AD /* SpinnerBotRS */ = {
 			isa = PBXGroup;
 			children = (
-				C886C8CFA70256962A995E9314C0A6B2 /* ReplaceMe.swift */,
 				8DABFECC83C4D75B1A3BA88A9886443B /* Pod */,
 				D3BA70F9986CD043A623947FFED9DAF4 /* Support Files */,
+				E86647F32154BD0000BD103F /* UIVCExtension.swift */,
 			);
 			name = SpinnerBotRS;
 			path = ../..;
@@ -318,6 +318,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					16C7388E1D381937D408E6064C2ADB08 = {
+						LastSwiftMigration = 0920;
+					};
+					B1DCA59047E6AE7228778A3AD2E248DC = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,7 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E83B74C2B322DDBD870BA417FF831FB0 /* ReplaceMe.swift in Sources */,
+				E86647F42154BD0000BD103F /* UIVCExtension.swift in Sources */,
 				1B434061AD5F04E3B27C3E3C7F048149 /* SpinnerBotRS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +492,7 @@
 			baseConfigurationReference = 24A55EBF32329E6B6CCB535CFAC78A96 /* Pods-SpinnerBotRS_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -508,6 +517,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -610,6 +620,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 721C11072FD1C4A0D871BA3309E9E63F /* SpinnerBotRS.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -643,6 +654,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 721C11072FD1C4A0D871BA3309E9E63F /* SpinnerBotRS.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -676,6 +688,7 @@
 			baseConfigurationReference = 540393D28E76C86481347FAFDF934317 /* Pods-SpinnerBotRS_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -699,6 +712,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

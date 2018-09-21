@@ -22,7 +22,7 @@ pod 'SpinnerBotRS'
 
 ## Author
 
-rsalla72@gmail.com, rsalla72@gmail.com
+Raj Salla, rsalla72@gmail.com
 
 ## License
 

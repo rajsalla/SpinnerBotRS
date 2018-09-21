@@ -29,11 +29,11 @@
 
 /* Begin PBXFileReference section */
 		1C166D956B02D6D745AF61B3 /* Pods-SpinnerBotRS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinnerBotRS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpinnerBotRS_Tests/Pods-SpinnerBotRS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1C193C0CF32DE78B41FA79C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1C193C0CF32DE78B41FA79C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		421B8599AB82E95F8445BC4C /* Pods_SpinnerBotRS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpinnerBotRS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DBC886609C1BDD7278238F /* Pods-SpinnerBotRS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinnerBotRS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpinnerBotRS_Example/Pods-SpinnerBotRS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4E18346C7B2B323E78F40E3F /* Pods-SpinnerBotRS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinnerBotRS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpinnerBotRS_Tests/Pods-SpinnerBotRS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5202B3A7CA510865BB9523D8 /* SpinnerBotRS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SpinnerBotRS.podspec; path = ../SpinnerBotRS.podspec; sourceTree = "<group>"; };
+		5202B3A7CA510865BB9523D8 /* SpinnerBotRS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SpinnerBotRS.podspec; path = ../SpinnerBotRS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* SpinnerBotRS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinnerBotRS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B469503EB48F94513658A7C /* Pods_SpinnerBotRS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpinnerBotRS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F51F09615B56144A3523D34 /* Pods-SpinnerBotRS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinnerBotRS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpinnerBotRS_Example/Pods-SpinnerBotRS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FDFF04060BE0984C92D6AB44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FDFF04060BE0984C92D6AB44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import SpinnerBotRS
 
 class ViewController: UIViewController {
 
+  var sv: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,5 +22,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+  @IBAction func didTapStart(_ sender: UIButton) {
+    sv = UIViewController.displaySpinner(onView: self.view)
+    
+    
+  }
+  @IBAction func didTapStop(_ sender: UIBarButtonItem) {
+    UIViewController.removeSpinner(spinner: sv)
+  }
 }
 
