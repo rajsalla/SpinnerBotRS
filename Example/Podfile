@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SpinnerBotRS_Example' do
+  pod 'SpinnerBotRS', :path => '../'
+
+  target 'SpinnerBotRS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
