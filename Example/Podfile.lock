@@ -1,0 +1,16 @@
+PODS:
+  - SpinnerBotRS (0.1.0)
+
+DEPENDENCIES:
+  - SpinnerBotRS (from `../`)
+
+EXTERNAL SOURCES:
+  SpinnerBotRS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SpinnerBotRS: 7ec3796c1a7a9afef979ef8d364b0f06fca11ba3
+
+PODFILE CHECKSUM: e7e43e2ae1fccbcb72ca861f9f9e7d29072e05e5
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module SpinnerBotRS {
+  umbrella header "SpinnerBotRS-umbrella.h"
+
+  export *
+  module * { export * }
+}
