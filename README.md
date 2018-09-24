@@ -5,12 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/SpinnerBotRS.svg?style=flat)](https://cocoapods.org/pods/SpinnerBotRS)
 [![Platform](https://img.shields.io/cocoapods/p/SpinnerBotRS.svg?style=flat)](https://cocoapods.org/pods/SpinnerBotRS)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
 ## Installation
 
 SpinnerBotRS is available through [CocoaPods](https://cocoapods.org). To install
@@ -19,7 +13,13 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SpinnerBotRS'
 ```
-## Usage 
+## Usage
+
+use this import statement wherever needed:
+'''swift
+import SpinnerBotRS
+'''
+
 Add the following line to show Spinner on a particular view:
   ```swift
   let sv = UIViewController.displaySpinner(onView: self.view)
@@ -29,6 +29,10 @@ To remove the displayed spinner:
   UIViewController.removeSpinner(spinner: sv)
 ```
 That's it.
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 
 ## Author
