@@ -16,9 +16,9 @@ pod 'SpinnerBotRS'
 ## Usage
 
 use this import statement wherever needed:
-'''swift
+```swift
 import SpinnerBotRS
-'''
+```
 
 Add the following line to show Spinner on a particular view:
   ```swift
