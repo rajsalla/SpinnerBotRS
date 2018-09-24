@@ -1,6 +1,6 @@
 # SpinnerBotRS
 
-[![CI Status](https://img.shields.io/travis/rsalla72@gmail.com/SpinnerBotRS.svg?style=flat)](https://travis-ci.org/rsalla72@gmail.com/SpinnerBotRS)
+[![CI Status](https://img.shields.io/travis/rajsalla/SpinnerBotRS.svg?style=flat)](https://travis-ci.org/rsalla72@gmail.com/SpinnerBotRS)
 [![Version](https://img.shields.io/cocoapods/v/SpinnerBotRS.svg?style=flat)](https://cocoapods.org/pods/SpinnerBotRS)
 [![License](https://img.shields.io/cocoapods/l/SpinnerBotRS.svg?style=flat)](https://cocoapods.org/pods/SpinnerBotRS)
 [![Platform](https://img.shields.io/cocoapods/p/SpinnerBotRS.svg?style=flat)](https://cocoapods.org/pods/SpinnerBotRS)
