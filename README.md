@@ -19,6 +19,17 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SpinnerBotRS'
 ```
+## Usage 
+Add the following line to show Spinner on a particular view:
+
+  let sv = UIViewController.displaySpinner(onView: self.view)
+
+To remove the displayed spinner: 
+
+  UIViewController.removeSpinner(spinner: sv)
+
+That's it.
+
 
 ## Author
 
