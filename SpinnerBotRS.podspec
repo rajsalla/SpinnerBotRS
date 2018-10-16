@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpinnerBotRS'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'SpinnerBotRs is an extension to show spinner on any UIView'
 
 # This description is used to generate tags and improve search results.
